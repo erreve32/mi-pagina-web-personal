@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'quicksand',sans-serif;
+    background-image: url('../assets/background.jpg'); /* Cambia 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed;
+    color: #f8f9fa;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+body {
+    background-color: #f8f9fa;
+
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+.profile-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.social-links {
+    margin-top: 20px;
+    
+    
+}
+
+.social-links a {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #020202;
+    transition: color 0.3s;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+.logo{
+    margin-right: 7px;
+    
+}
+
+footer img{
+    width: 75px;
+    height: auto;
+    border: 2px solid ;
+    border-radius: 50%;
+    
+}
+
